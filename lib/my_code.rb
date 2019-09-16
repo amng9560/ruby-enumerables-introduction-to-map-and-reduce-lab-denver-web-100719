@@ -1,5 +1,9 @@
 # My Code here....
 def map_to_negativize (source_array)
-  negative *= -1
+  new = []
+  while i < source_array.length do
+    new.push( source_array[i]* -1)
+    i += 1
+  end
+  return new
 end
-map_to_negative[1,2,3,-9]
